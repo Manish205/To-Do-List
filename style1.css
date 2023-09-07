@@ -1,0 +1,201 @@
+header {
+    background-color: #00ccff;
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px; /* Adjust the logo size as needed */
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Center the container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #82ecf3e5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Updated styles for the "About Us" section */
+#about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about-content {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.app-info {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.app-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.app-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.app-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.app-info li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+/* Add styles for the Contact Us section */
+.contact-us {
+    margin-top: 40px;
+}
+
+.contact-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.contact-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
